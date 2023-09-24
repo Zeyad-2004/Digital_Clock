@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TIME SECTION */
+.hours,.minutes,.seconds,.period{
+    width: 200px;
+    margin: 20px 15px 0 0;
+    color: white;
+}
+.box1{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+}
+.box2{
+    height: 160px;
+    padding: 15px 0;
+}
+.box2 h1{
+    font-size: 100px;
+    font-weight: 700;
+}
+.hours   .box1{background: #00829d;}
+.minutes .box1{background: #6ca207;}
+.seconds .box1{background: #d24f00;}
+.period  .box1{background: #1b936a;}
+
+.hours   .box2{background: #00a2cf;}
+.minutes .box2{background: #8ad208;}
+.seconds .box2{background: #ff6600;}
+.period  .box2{background: #1cbf87;}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-reflect: below 1px
+        linear-gradient(transparent, transparent, #00000050);
+}
